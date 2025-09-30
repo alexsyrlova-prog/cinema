@@ -1,0 +1,80 @@
+/*упрощение расчета размеров для всех элементов*/
+*{ 
+    
+    box-sizing: border-box;
+}
+
+/*настройки самой страницы*/
+body{ 
+    background-color: #621402;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+
+/*контейнер для центрирования контента*/
+.container { 
+    max-width: 1170px;
+    margin: auto;
+    width: 90%;
+}
+
+/*настройки шапки*/
+.header{ 
+    padding-bottom: 60px;
+}
+
+/*кнопка мобильного меню*/
+.m-menu{ 
+    display: none;
+}
+
+/*настройки для шапки (навигационная панель)*/
+.navbar { 
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+ /*контейнер навигационного меню*/
+.nav {
+    position: relative;
+}
+
+/*настройки списка пунктов меню*/
+.menu{ 
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding-left: 17px;
+}
+
+/*настройки для ссылок в меню навигации*/
+.menu-link{ 
+    color: white;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+ /*отдельный пункт меню*/
+.menu-item{
+    margin-right: 25px;
+}
+
+ /*класс для аккаунта*/
+.user{
+    margin-left: auto;
+    color: #fff;
+    display: flex ;
+    align-items: center;
+}
+
+ /*класс для аватарки*/
+.avatar{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    margin-left: 11px;
+}
+
+ 
